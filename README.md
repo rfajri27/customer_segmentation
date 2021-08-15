@@ -19,11 +19,11 @@ Project ini menggunakan [Mall Customer Segmentation Data](https://www.kaggle.com
 
 ![](images/income_vs_spendingscore.png)
 
-## K-Means Clustering using Annual Income (k$) & Spending Score (1-100)
+## Implemented K-Means Algorithm to do Customer Segmentation using Annual Income (k$) & Spending Score (1-100)
 ### Measuring Cluster Criteria
 
 ![](images/inertia.png)
 
-###  K-Means Clustering Model using $K=5$
+###  K-Means Clustering Model using K=5
 
 ![](images/km_clustering.png)
