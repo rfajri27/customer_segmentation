@@ -42,7 +42,6 @@ Langkah-langkah yang akan dilakukan adalah:
 ![](images/plot_cc_Spending_Score.png)
 
 ## Conclusion
-## Kesimpulan
 Berdasarkan pemodelan yang telah dilakukan dengan menggunakan metode algoritma K-Prototypes diperoleh 5 cluster customer, yaitu:
 - Cluster 0: isi cluster ini didominasi oleh para **pekerja seni** yang telah **menikah** dan yang memiliki **spending score average**.
 - Cluster 1: isi cluster ini didominasi oleh para **pekerja dibidang hukum** yang  memiliki umur diatas **60 tahun** dan telah menikah dengan **spending score high**.
