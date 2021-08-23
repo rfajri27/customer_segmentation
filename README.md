@@ -33,11 +33,11 @@ Langkah-langkah yang akan dilakukan adalah:
 
 ![](images/plot_cc_Ever_Married.png)
 
+![](images/plot_cc_Gender)
+
 ![](images/plot_cc_Graduated.png)
 
 ![](images/plot_cc_Profession.png)
-
-![](images/plot_cc_Graduated.png)
 
 ![](images/plot_cc_Spending_Score.png)
 
@@ -46,5 +46,5 @@ Berdasarkan pemodelan yang telah dilakukan dengan menggunakan metode algoritma K
 - Cluster 0: isi cluster ini didominasi oleh para **pekerja seni** yang telah **menikah** dan yang memiliki **spending score average**.
 - Cluster 1: isi cluster ini didominasi oleh para **pekerja dibidang hukum** yang  memiliki umur diatas **60 tahun** dan telah menikah dengan **spending score high**.
 - Cluster 2: isi cluster ini didominasi oleh para **pelajar dan mahasiswa** yang **belum menikah** dengan **spending score low**
-- Cluster 3: isi cluster ini didominasi oleh customer yang **belum menikah** dengan **spending score low**
+- Cluster 3: isi cluster ini didominasi oleh customer **perempuan** yang **belum menikah** dengan **spending score low**
 - Cluster 4: isi cluster ini didominasi oleh customer yang **sudah menikah** dengan **spending score average**
