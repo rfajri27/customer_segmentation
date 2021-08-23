@@ -1,29 +1,51 @@
 # Customer Segmentation using K-Means Algorithm 
 
-Project ini menggunakan [Mall Customer Segmentation Data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python), dataset ini memiliki 5 kolom:
-* CustomerID
-* Gender
-* Age
-* Annual Income (k$)
-* Spending Score (1-100)
+Project ini menggunakan data customer dari [automobile company](https://www.kaggle.com/vetrirah/customer) yang berencana memasuki pasar baru dengan menggunakn produk mereka yang telah ada. Pada project ini akan dilakukan customer segmentation untuk mengidentifikasi customer baru yang potensial.
 
-## Customer Distribution by Gender
+## Data Cleansing
+Langkah-langkah yang akan dilakukan adalah:
+- Mengatasi data-data yang memiliki *missing values* dengan metode *imputation*
+- Mengatasi outlier atau pencilan dengan menggunakan metode *interquartile range* (IQR)
 
-![](images/customer_by_gender.png)
+## Exploratory Data Analysis
+### Numerical Columns
+
+![](images/obs_num.png)
   
-## Customer Distribution by Age
+### Categorical Columns
 
-![](images/customer_by_age.png)
+![](images/obs_kat.png)
 
-## Plot Anual Income vs Spending Score
+## Data PreProcessing
+- Menghapus columns yang tidak dibutuhkan dalam pembuatan model
+- Melakukan *decimal scaling* untuk kolom numerik
+- Melakukan encoding data untuk kolom kategorik
 
-![](images/income_vs_spendingscore.png)
 
-## Implemented K-Means Algorithm to do Customer Segmentation using Annual Income (k$) & Spending Score (1-100)
+## Implemented K-Prototypes Algorithm to do Customer Segmentation
 ### Measuring Cluster Criteria
 
-![](images/inertia.png)
+![](images/inertia_1.png)
 
-###  K-Means Clustering Model using K=5
+###  Identify Segment for Each Customer
 
-![](images/km_clustering.png)
+![](images/box_plot_age.png)
+
+![](images/plot_cc_Ever_Married.png)
+
+![](images/plot_cc_Graduated.png)
+
+![](images/plot_cc_Profession.png)
+
+![](images/plot_cc_Graduated.png)
+
+![](images/plot_cc_Spending_Score.png)
+
+## Conclusion
+## Kesimpulan
+Berdasarkan pemodelan yang telah dilakukan dengan menggunakan metode algoritma K-Prototypes diperoleh 5 cluster customer, yaitu:
+- Cluster 0: isi cluster ini didominasi oleh para **pekerja seni** yang telah **menikah** dan yang memiliki **spending score average**.
+- Cluster 1: isi cluster ini didominasi oleh para **pekerja dibidang hukum** yang  memiliki umur diatas **60 tahun** dan telah menikah dengan **spending score high**.
+- Cluster 2: isi cluster ini didominasi oleh para **pelajar dan mahasiswa** yang **belum menikah** dengan **spending score low**
+- Cluster 3: isi cluster ini didominasi oleh customer yang **belum menikah** dengan **spending score low**
+- Cluster 4: isi cluster ini didominasi oleh customer yang **sudah menikah** dengan **spending score average**
