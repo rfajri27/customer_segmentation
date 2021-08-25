@@ -1,5 +1,9 @@
 # Customer Segmentation using K-Means Algorithm 
 
+- Nama : Rahmat Fajri
+- Email : rfajri912@gmail.com
+- [Portofoli](https://rfajri27.github.io/MyPortfolio/)
+
 Project ini menggunakan data customer dari [automobile company](https://www.kaggle.com/vetrirah/customer) yang berencana memasuki pasar baru dengan menggunakn produk mereka yang telah ada. Pada project ini akan dilakukan customer segmentation untuk mengidentifikasi customer baru yang potensial.
 
 ## Data Cleansing
